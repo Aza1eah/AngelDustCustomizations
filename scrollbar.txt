@@ -1,0 +1,19 @@
+:root::after {
+  content: "" !important;
+  position: fixed !important;
+  top: 0 !important;
+  right: 18px !important;
+  width: 64px !important;
+  height: 64px !important;
+  background: url("https://i.postimg.cc/fTY1nbRL/angiescroll.png") center / contain no-repeat !important;
+  pointer-events: none !important;
+  z-index: 2147483647 !important;
+
+  animation: scroll-buddy linear both !important;
+  animation-timeline: scroll(root block) !important;
+}
+
+@keyframes scroll-buddy {
+  from { transform: translateY(0); }
+  to   { transform: translateY(calc(100vh - 64px)); }
+}

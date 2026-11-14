@@ -1,0 +1,23 @@
+#browser::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: 
+    url("chibiangiesticker.png"),
+    url("angiesticker1.png");
+  background-size: 
+    120px 120px,
+    102.5px 143px;
+  background-repeat: no-repeat;
+  background-position: 
+    right 12px bottom 12px,
+    left 36px top 12px;  
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+#browser:hover::after {
+  opacity: 0.5;   /* 0 = invisible, 1 = solid */
+}
