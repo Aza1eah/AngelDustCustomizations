@@ -3,8 +3,8 @@
   position: fixed;
   inset: 0;
   background-image: 
-    url("chibiangiesticker.png"),
-    url("angiesticker1.png");
+    url("stickers/chibiangiesticker.png"),
+    url("stickers/angiesticker1.png");
   background-size: 
     120px 120px,
     102.5px 143px;
